@@ -1,0 +1,587 @@
+{
+  "query": "What is the difference between the seven ethical requirements for trustworthy AI and the legally binding requirements for high-risk AI systems under the EU AI Act?",
+  "candidate_count": 20,
+  "baseline_method": "sentence-transformer embeddings with cosine similarity",
+  "relevance_scoring_method": "deterministic_keyword_baseline",
+  "relevance_scoring_model": null,
+  "relevance_scale": "integer from 0 (not useful) to 5 (directly useful)",
+  "combined_score_formula": "0.5 * min-max-normalized cosine similarity within the top 20 + 0.5 * (relevance score / 5)",
+  "comparison": {
+    "original_cosine_top_5": [
+      {
+        "rank": 1,
+        "similarity_score": 0.7654188275337219,
+        "metadata": {
+          "source": "data/eu_ai_act.pdf",
+          "document_type": "pdf",
+          "page": 41,
+          "chunk_index": 3
+        },
+        "excerpt": "mutandis, without prejudice to more specific procedural rights provided for by this Regulation. (165) The development of AI systems other than high-risk AI systems in accordance with the requirements of this Regulation may lead to a larger uptake of ethical and trustworthy AI in the Union. Providers of AI systems that are not high-risk should be encouraged to create codes of conduct, including related governance mechanisms, intended to foster the voluntary application of some or all of the manda",
+        "text": "mutandis, without prejudice to more specific procedural rights provided for by this Regulation. (165) The development of AI systems other than high-risk AI systems in accordance with the requirements of this Regulation may lead to a larger uptake of ethical and trustworthy AI in the Union. Providers of AI systems that are not high-risk should be encouraged to create codes of conduct, including related governance mechanisms, intended to foster the voluntary application of some or all of the mandatory requirements applicable to high-risk AI systems, adapted in light of the intended purpose of the systems and the lower risk involved and taking into account the available technical solutions and industry best practices such as model and data cards. Providers and, as appropriate, deployers of all AI systems, high-risk or not, and AI models should also be encouraged to apply on a voluntary basis additional requirements related, for example, to the elements of the Union’s Ethics Guidelines for Trustworthy AI, OJ L, 12.7.2024 EN ELI: http://data.europa.eu/eli/reg/2024/1689/oj 41/144",
+        "original_rank": 1,
+        "relevance_score": 2,
+        "relevance_rationale": "specifically covers one of the two topics",
+        "normalized_similarity": 1.0,
+        "normalized_relevance": 0.4,
+        "combined_score": 0.7,
+        "final_rank": 2
+      },
+      {
+        "rank": 2,
+        "similarity_score": 0.7620742321014404,
+        "metadata": {
+          "source": "data/eu_ai_act.pdf",
+          "document_type": "pdf",
+          "page": 8,
+          "chunk_index": 0
+        },
+        "excerpt": "(27) While the risk-based approach is the basis for a proportionate and effective set of binding rules, it is important to recall the 2019 Ethics guidelines for trustworthy AI developed by the independent AI HLEG appointed by the Commission. In those guidelines, the AI HLEG developed seven non-binding ethical principles for AI which are intended to help ensure that AI is trustworthy and ethically sound. The seven principles include human agency and oversight; technical robustness and safety; pri",
+        "text": "(27) While the risk-based approach is the basis for a proportionate and effective set of binding rules, it is important to recall the 2019 Ethics guidelines for trustworthy AI developed by the independent AI HLEG appointed by the Commission. In those guidelines, the AI HLEG developed seven non-binding ethical principles for AI which are intended to help ensure that AI is trustworthy and ethically sound. The seven principles include human agency and oversight; technical robustness and safety; privacy and data governance; transparency; diversity, non-discrimination and fairness; societal and environmental well-being and accountability. Without prejudice to the legally binding requirements of this Regulation and any other applicable Union law, those guidelines contribute to the design of coherent, trustworthy and human-centric AI, in line with the Charter and with the values on which the Union is founded. According to the guidelines of the AI HLEG, human agency and oversight means that AI systems are developed and used as a tool that serves people, respects human dignity and personal autonomy, and that is functioning in a way that can be appropriately controlled and overseen by humans. Technical robustness and safety means that AI systems are developed and used in a way that allows robustness in the case of problems and resilience against attempts to alter the use or performance of the AI system so as to allow unlawful use by third parties, and minimise unintended harm. Privacy and data governance means that AI systems are developed and used in accordance with privacy and",
+        "original_rank": 2,
+        "relevance_score": 5,
+        "relevance_rationale": "explicitly contrasts seven non-binding ethical principles with binding requirements",
+        "normalized_similarity": 0.9623329372830953,
+        "normalized_relevance": 1.0,
+        "combined_score": 0.9811664686415477,
+        "final_rank": 1
+      },
+      {
+        "rank": 3,
+        "similarity_score": 0.7112122774124146,
+        "metadata": {
+          "source": "data/eu_ai_act.pdf",
+          "document_type": "pdf",
+          "page": 7,
+          "chunk_index": 4
+        },
+        "excerpt": "unacceptable AI practices, to lay down requirements for high-risk AI systems and obligations for the relevant operators, and to lay down transparency obligations for certain AI systems. OJ L, 12.7.2024 EN ELI: http://data.europa.eu/eli/reg/2024/1689/oj 7/144",
+        "text": "unacceptable AI practices, to lay down requirements for high-risk AI systems and obligations for the relevant operators, and to lay down transparency obligations for certain AI systems. OJ L, 12.7.2024 EN ELI: http://data.europa.eu/eli/reg/2024/1689/oj 7/144",
+        "original_rank": 3,
+        "relevance_score": 3,
+        "relevance_rationale": "covers high-risk AI and legal requirements or obligations",
+        "normalized_similarity": 0.389522121755241,
+        "normalized_relevance": 0.6,
+        "combined_score": 0.4947610608776205,
+        "final_rank": 3
+      },
+      {
+        "rank": 4,
+        "similarity_score": 0.7010980844497681,
+        "metadata": {
+          "source": "data/eu_ai_act.pdf",
+          "document_type": "pdf",
+          "page": 86,
+          "chunk_index": 1
+        },
+        "excerpt": "their sources, that may stem from the development, the placing on the market, or the use of general-purpose AI models with systemic risk; (c) keep track of, document, and report, without undue delay, to the AI Office and, as appropriate, to national competent authorities, relevant information about serious incidents and possible corrective measures to address them; (d) ensure an adequate level of cybersecurity protection for the general-purpose AI model with systemic risk and the physical infras",
+        "text": "their sources, that may stem from the development, the placing on the market, or the use of general-purpose AI models with systemic risk; (c) keep track of, document, and report, without undue delay, to the AI Office and, as appropriate, to national competent authorities, relevant information about serious incidents and possible corrective measures to address them; (d) ensure an adequate level of cybersecurity protection for the general-purpose AI model with systemic risk and the physical infrastructure of the model. 2. Providers of general-purpose AI models with systemic risk may rely on codes of practice within the meaning of Article 56 to demonstrate compliance with the obligations set out in paragraph 1 of this Article, until a harmonised standard is published. Compliance with European harmonised standards grants providers the presumption of conformity to the extent that those standards cover those obligations. Providers of general-purpose AI models with systemic risks who do not adhere to an approved code of practice or do not comply with a European harmonised standard shall demonstrate alternative adequate means of compliance for assessment by the Commission. 3. Any information or documentation obtained pursuant to this Article, including trade secrets, shall be treated in accordance with the confidentiality obligations set out in Article 78. SECTION 4 Codes of practice Article 56 Codes of practice 1. The AI Office shall encourage and facilitate the drawing up of codes of practice at Union level in order to contribute to the proper application of this Regulation, taking into account international approaches.",
+        "original_rank": 4,
+        "relevance_score": 1,
+        "relevance_rationale": "contains an Article reference and legal language",
+        "normalized_similarity": 0.27561538822992393,
+        "normalized_relevance": 0.2,
+        "combined_score": 0.23780769411496197,
+        "final_rank": 13
+      },
+      {
+        "rank": 5,
+        "similarity_score": 0.6939602494239807,
+        "metadata": {
+          "source": "data/eu_ai_act.pdf",
+          "document_type": "pdf",
+          "page": 77,
+          "chunk_index": 2
+        },
+        "excerpt": "with the obligations set out in Sections 2 and 3 of Chapter V to a level at least equivalent thereto. 6. Where a Member State considers that a common specification does not entirely meet the requirements set out in Section 2 or, as applicable, comply with obligations set out in Sections 2 and 3 of Chapter V, it shall inform the Commission thereof with a detailed explanation. The Commission shall assess that information and, if appropriate, amend the implementing act establishing the common speci",
+        "text": "with the obligations set out in Sections 2 and 3 of Chapter V to a level at least equivalent thereto. 6. Where a Member State considers that a common specification does not entirely meet the requirements set out in Section 2 or, as applicable, comply with obligations set out in Sections 2 and 3 of Chapter V, it shall inform the Commission thereof with a detailed explanation. The Commission shall assess that information and, if appropriate, amend the implementing act establishing the common specification concerned. Article 42 Presumption of conformity with certain requirements 1. High-risk AI systems that have been trained and tested on data reflecting the specific geographical, behavioural, contextual or functional setting within which they are intended to be used shall be presumed to comply with the relevant requirements laid down in Article 10(4). 2. High-risk AI systems that have been certified or for which a statement of conformity has been issued under a cybersecurity scheme pursuant to Regulation (EU) 2019/881 and the references of which have been published in the Official Journal of the European Union shall be presumed to comply with the cybersecurity requirements set out in Article 15 of this Regulation in so far as the cybersecurity certificate or statement of conformity or parts thereof cover those requirements. OJ L, 12.7.2024 EN ELI: http://data.europa.eu/eli/reg/2024/1689/oj 77/144",
+        "original_rank": 5,
+        "relevance_score": 3,
+        "relevance_rationale": "contains Article-referenced high-risk legal evidence",
+        "normalized_similarity": 0.19522860153989702,
+        "normalized_relevance": 0.6,
+        "combined_score": 0.3976143007699485,
+        "final_rank": 5
+      }
+    ],
+    "relevance_scored_top_5": [
+      {
+        "rank": 2,
+        "similarity_score": 0.7620742321014404,
+        "metadata": {
+          "source": "data/eu_ai_act.pdf",
+          "document_type": "pdf",
+          "page": 8,
+          "chunk_index": 0
+        },
+        "excerpt": "(27) While the risk-based approach is the basis for a proportionate and effective set of binding rules, it is important to recall the 2019 Ethics guidelines for trustworthy AI developed by the independent AI HLEG appointed by the Commission. In those guidelines, the AI HLEG developed seven non-binding ethical principles for AI which are intended to help ensure that AI is trustworthy and ethically sound. The seven principles include human agency and oversight; technical robustness and safety; pri",
+        "text": "(27) While the risk-based approach is the basis for a proportionate and effective set of binding rules, it is important to recall the 2019 Ethics guidelines for trustworthy AI developed by the independent AI HLEG appointed by the Commission. In those guidelines, the AI HLEG developed seven non-binding ethical principles for AI which are intended to help ensure that AI is trustworthy and ethically sound. The seven principles include human agency and oversight; technical robustness and safety; privacy and data governance; transparency; diversity, non-discrimination and fairness; societal and environmental well-being and accountability. Without prejudice to the legally binding requirements of this Regulation and any other applicable Union law, those guidelines contribute to the design of coherent, trustworthy and human-centric AI, in line with the Charter and with the values on which the Union is founded. According to the guidelines of the AI HLEG, human agency and oversight means that AI systems are developed and used as a tool that serves people, respects human dignity and personal autonomy, and that is functioning in a way that can be appropriately controlled and overseen by humans. Technical robustness and safety means that AI systems are developed and used in a way that allows robustness in the case of problems and resilience against attempts to alter the use or performance of the AI system so as to allow unlawful use by third parties, and minimise unintended harm. Privacy and data governance means that AI systems are developed and used in accordance with privacy and",
+        "original_rank": 2,
+        "relevance_score": 5,
+        "relevance_rationale": "explicitly contrasts seven non-binding ethical principles with binding requirements",
+        "normalized_similarity": 0.9623329372830953,
+        "normalized_relevance": 1.0,
+        "combined_score": 0.9811664686415477,
+        "final_rank": 1
+      },
+      {
+        "rank": 1,
+        "similarity_score": 0.7654188275337219,
+        "metadata": {
+          "source": "data/eu_ai_act.pdf",
+          "document_type": "pdf",
+          "page": 41,
+          "chunk_index": 3
+        },
+        "excerpt": "mutandis, without prejudice to more specific procedural rights provided for by this Regulation. (165) The development of AI systems other than high-risk AI systems in accordance with the requirements of this Regulation may lead to a larger uptake of ethical and trustworthy AI in the Union. Providers of AI systems that are not high-risk should be encouraged to create codes of conduct, including related governance mechanisms, intended to foster the voluntary application of some or all of the manda",
+        "text": "mutandis, without prejudice to more specific procedural rights provided for by this Regulation. (165) The development of AI systems other than high-risk AI systems in accordance with the requirements of this Regulation may lead to a larger uptake of ethical and trustworthy AI in the Union. Providers of AI systems that are not high-risk should be encouraged to create codes of conduct, including related governance mechanisms, intended to foster the voluntary application of some or all of the mandatory requirements applicable to high-risk AI systems, adapted in light of the intended purpose of the systems and the lower risk involved and taking into account the available technical solutions and industry best practices such as model and data cards. Providers and, as appropriate, deployers of all AI systems, high-risk or not, and AI models should also be encouraged to apply on a voluntary basis additional requirements related, for example, to the elements of the Union’s Ethics Guidelines for Trustworthy AI, OJ L, 12.7.2024 EN ELI: http://data.europa.eu/eli/reg/2024/1689/oj 41/144",
+        "original_rank": 1,
+        "relevance_score": 2,
+        "relevance_rationale": "specifically covers one of the two topics",
+        "normalized_similarity": 1.0,
+        "normalized_relevance": 0.4,
+        "combined_score": 0.7,
+        "final_rank": 2
+      },
+      {
+        "rank": 3,
+        "similarity_score": 0.7112122774124146,
+        "metadata": {
+          "source": "data/eu_ai_act.pdf",
+          "document_type": "pdf",
+          "page": 7,
+          "chunk_index": 4
+        },
+        "excerpt": "unacceptable AI practices, to lay down requirements for high-risk AI systems and obligations for the relevant operators, and to lay down transparency obligations for certain AI systems. OJ L, 12.7.2024 EN ELI: http://data.europa.eu/eli/reg/2024/1689/oj 7/144",
+        "text": "unacceptable AI practices, to lay down requirements for high-risk AI systems and obligations for the relevant operators, and to lay down transparency obligations for certain AI systems. OJ L, 12.7.2024 EN ELI: http://data.europa.eu/eli/reg/2024/1689/oj 7/144",
+        "original_rank": 3,
+        "relevance_score": 3,
+        "relevance_rationale": "covers high-risk AI and legal requirements or obligations",
+        "normalized_similarity": 0.389522121755241,
+        "normalized_relevance": 0.6,
+        "combined_score": 0.4947610608776205,
+        "final_rank": 3
+      },
+      {
+        "rank": 13,
+        "similarity_score": 0.6835505962371826,
+        "metadata": {
+          "source": "data/eu_ai_act.pdf",
+          "document_type": "pdf",
+          "page": 62,
+          "chunk_index": 0
+        },
+        "excerpt": "SECTION 3 Obligations of providers and deployers of high-risk AI systems and other parties Article 16 Obligations of providers of high-risk AI systems Providers of high-risk AI systems shall: (a) ensure that their high-risk AI systems are compliant with the requirements set out in Section 2; (b) indicate on the high-risk AI system or, where that is not possible, on its packaging or its accompanying documentation, as applicable, their name, registered trade name or registered trade mark, the addr",
+        "text": "SECTION 3 Obligations of providers and deployers of high-risk AI systems and other parties Article 16 Obligations of providers of high-risk AI systems Providers of high-risk AI systems shall: (a) ensure that their high-risk AI systems are compliant with the requirements set out in Section 2; (b) indicate on the high-risk AI system or, where that is not possible, on its packaging or its accompanying documentation, as applicable, their name, registered trade name or registered trade mark, the address at which they can be contacted; (c) have a quality management system in place which complies with Article 17; (d) keep the documentation referred to in Article 18; (e) when under their control, keep the logs automatically generated by their high-risk AI systems as referred to in Article 19; (f) ensure that the high-risk AI system undergoes the relevant conformity assessment procedure as referred to in Article 43, prior to its being placed on the market or put into service; (g) draw up an EU declaration of conformity in accordance with Article 47; (h) affix the CE marking to the high-risk AI system or, where that is not possible, on its packaging or its accompanying documentation, to indicate conformity with this Regulation, in accordance with Article 48; (i) comply with the registration obligations referred to in Article 49(1); (j) take the necessary corrective actions and provide information as required in Article 20; (k) upon a reasoned request of a national competent authority, demonstrate the conformity of the high-risk AI system with",
+        "original_rank": 13,
+        "relevance_score": 4,
+        "relevance_rationale": "contains a cited direct provider/deployer duty for high-risk AI",
+        "normalized_similarity": 0.07799437474407771,
+        "normalized_relevance": 0.8,
+        "combined_score": 0.43899718737203886,
+        "final_rank": 4
+      },
+      {
+        "rank": 5,
+        "similarity_score": 0.6939602494239807,
+        "metadata": {
+          "source": "data/eu_ai_act.pdf",
+          "document_type": "pdf",
+          "page": 77,
+          "chunk_index": 2
+        },
+        "excerpt": "with the obligations set out in Sections 2 and 3 of Chapter V to a level at least equivalent thereto. 6. Where a Member State considers that a common specification does not entirely meet the requirements set out in Section 2 or, as applicable, comply with obligations set out in Sections 2 and 3 of Chapter V, it shall inform the Commission thereof with a detailed explanation. The Commission shall assess that information and, if appropriate, amend the implementing act establishing the common speci",
+        "text": "with the obligations set out in Sections 2 and 3 of Chapter V to a level at least equivalent thereto. 6. Where a Member State considers that a common specification does not entirely meet the requirements set out in Section 2 or, as applicable, comply with obligations set out in Sections 2 and 3 of Chapter V, it shall inform the Commission thereof with a detailed explanation. The Commission shall assess that information and, if appropriate, amend the implementing act establishing the common specification concerned. Article 42 Presumption of conformity with certain requirements 1. High-risk AI systems that have been trained and tested on data reflecting the specific geographical, behavioural, contextual or functional setting within which they are intended to be used shall be presumed to comply with the relevant requirements laid down in Article 10(4). 2. High-risk AI systems that have been certified or for which a statement of conformity has been issued under a cybersecurity scheme pursuant to Regulation (EU) 2019/881 and the references of which have been published in the Official Journal of the European Union shall be presumed to comply with the cybersecurity requirements set out in Article 15 of this Regulation in so far as the cybersecurity certificate or statement of conformity or parts thereof cover those requirements. OJ L, 12.7.2024 EN ELI: http://data.europa.eu/eli/reg/2024/1689/oj 77/144",
+        "original_rank": 5,
+        "relevance_score": 3,
+        "relevance_rationale": "contains Article-referenced high-risk legal evidence",
+        "normalized_similarity": 0.19522860153989702,
+        "normalized_relevance": 0.6,
+        "combined_score": 0.3976143007699485,
+        "final_rank": 5
+      }
+    ]
+  },
+  "scored_candidates": [
+    {
+      "rank": 2,
+      "similarity_score": 0.7620742321014404,
+      "metadata": {
+        "source": "data/eu_ai_act.pdf",
+        "document_type": "pdf",
+        "page": 8,
+        "chunk_index": 0
+      },
+      "excerpt": "(27) While the risk-based approach is the basis for a proportionate and effective set of binding rules, it is important to recall the 2019 Ethics guidelines for trustworthy AI developed by the independent AI HLEG appointed by the Commission. In those guidelines, the AI HLEG developed seven non-binding ethical principles for AI which are intended to help ensure that AI is trustworthy and ethically sound. The seven principles include human agency and oversight; technical robustness and safety; pri",
+      "text": "(27) While the risk-based approach is the basis for a proportionate and effective set of binding rules, it is important to recall the 2019 Ethics guidelines for trustworthy AI developed by the independent AI HLEG appointed by the Commission. In those guidelines, the AI HLEG developed seven non-binding ethical principles for AI which are intended to help ensure that AI is trustworthy and ethically sound. The seven principles include human agency and oversight; technical robustness and safety; privacy and data governance; transparency; diversity, non-discrimination and fairness; societal and environmental well-being and accountability. Without prejudice to the legally binding requirements of this Regulation and any other applicable Union law, those guidelines contribute to the design of coherent, trustworthy and human-centric AI, in line with the Charter and with the values on which the Union is founded. According to the guidelines of the AI HLEG, human agency and oversight means that AI systems are developed and used as a tool that serves people, respects human dignity and personal autonomy, and that is functioning in a way that can be appropriately controlled and overseen by humans. Technical robustness and safety means that AI systems are developed and used in a way that allows robustness in the case of problems and resilience against attempts to alter the use or performance of the AI system so as to allow unlawful use by third parties, and minimise unintended harm. Privacy and data governance means that AI systems are developed and used in accordance with privacy and",
+      "original_rank": 2,
+      "relevance_score": 5,
+      "relevance_rationale": "explicitly contrasts seven non-binding ethical principles with binding requirements",
+      "normalized_similarity": 0.9623329372830953,
+      "normalized_relevance": 1.0,
+      "combined_score": 0.9811664686415477,
+      "final_rank": 1
+    },
+    {
+      "rank": 1,
+      "similarity_score": 0.7654188275337219,
+      "metadata": {
+        "source": "data/eu_ai_act.pdf",
+        "document_type": "pdf",
+        "page": 41,
+        "chunk_index": 3
+      },
+      "excerpt": "mutandis, without prejudice to more specific procedural rights provided for by this Regulation. (165) The development of AI systems other than high-risk AI systems in accordance with the requirements of this Regulation may lead to a larger uptake of ethical and trustworthy AI in the Union. Providers of AI systems that are not high-risk should be encouraged to create codes of conduct, including related governance mechanisms, intended to foster the voluntary application of some or all of the manda",
+      "text": "mutandis, without prejudice to more specific procedural rights provided for by this Regulation. (165) The development of AI systems other than high-risk AI systems in accordance with the requirements of this Regulation may lead to a larger uptake of ethical and trustworthy AI in the Union. Providers of AI systems that are not high-risk should be encouraged to create codes of conduct, including related governance mechanisms, intended to foster the voluntary application of some or all of the mandatory requirements applicable to high-risk AI systems, adapted in light of the intended purpose of the systems and the lower risk involved and taking into account the available technical solutions and industry best practices such as model and data cards. Providers and, as appropriate, deployers of all AI systems, high-risk or not, and AI models should also be encouraged to apply on a voluntary basis additional requirements related, for example, to the elements of the Union’s Ethics Guidelines for Trustworthy AI, OJ L, 12.7.2024 EN ELI: http://data.europa.eu/eli/reg/2024/1689/oj 41/144",
+      "original_rank": 1,
+      "relevance_score": 2,
+      "relevance_rationale": "specifically covers one of the two topics",
+      "normalized_similarity": 1.0,
+      "normalized_relevance": 0.4,
+      "combined_score": 0.7,
+      "final_rank": 2
+    },
+    {
+      "rank": 3,
+      "similarity_score": 0.7112122774124146,
+      "metadata": {
+        "source": "data/eu_ai_act.pdf",
+        "document_type": "pdf",
+        "page": 7,
+        "chunk_index": 4
+      },
+      "excerpt": "unacceptable AI practices, to lay down requirements for high-risk AI systems and obligations for the relevant operators, and to lay down transparency obligations for certain AI systems. OJ L, 12.7.2024 EN ELI: http://data.europa.eu/eli/reg/2024/1689/oj 7/144",
+      "text": "unacceptable AI practices, to lay down requirements for high-risk AI systems and obligations for the relevant operators, and to lay down transparency obligations for certain AI systems. OJ L, 12.7.2024 EN ELI: http://data.europa.eu/eli/reg/2024/1689/oj 7/144",
+      "original_rank": 3,
+      "relevance_score": 3,
+      "relevance_rationale": "covers high-risk AI and legal requirements or obligations",
+      "normalized_similarity": 0.389522121755241,
+      "normalized_relevance": 0.6,
+      "combined_score": 0.4947610608776205,
+      "final_rank": 3
+    },
+    {
+      "rank": 13,
+      "similarity_score": 0.6835505962371826,
+      "metadata": {
+        "source": "data/eu_ai_act.pdf",
+        "document_type": "pdf",
+        "page": 62,
+        "chunk_index": 0
+      },
+      "excerpt": "SECTION 3 Obligations of providers and deployers of high-risk AI systems and other parties Article 16 Obligations of providers of high-risk AI systems Providers of high-risk AI systems shall: (a) ensure that their high-risk AI systems are compliant with the requirements set out in Section 2; (b) indicate on the high-risk AI system or, where that is not possible, on its packaging or its accompanying documentation, as applicable, their name, registered trade name or registered trade mark, the addr",
+      "text": "SECTION 3 Obligations of providers and deployers of high-risk AI systems and other parties Article 16 Obligations of providers of high-risk AI systems Providers of high-risk AI systems shall: (a) ensure that their high-risk AI systems are compliant with the requirements set out in Section 2; (b) indicate on the high-risk AI system or, where that is not possible, on its packaging or its accompanying documentation, as applicable, their name, registered trade name or registered trade mark, the address at which they can be contacted; (c) have a quality management system in place which complies with Article 17; (d) keep the documentation referred to in Article 18; (e) when under their control, keep the logs automatically generated by their high-risk AI systems as referred to in Article 19; (f) ensure that the high-risk AI system undergoes the relevant conformity assessment procedure as referred to in Article 43, prior to its being placed on the market or put into service; (g) draw up an EU declaration of conformity in accordance with Article 47; (h) affix the CE marking to the high-risk AI system or, where that is not possible, on its packaging or its accompanying documentation, to indicate conformity with this Regulation, in accordance with Article 48; (i) comply with the registration obligations referred to in Article 49(1); (j) take the necessary corrective actions and provide information as required in Article 20; (k) upon a reasoned request of a national competent authority, demonstrate the conformity of the high-risk AI system with",
+      "original_rank": 13,
+      "relevance_score": 4,
+      "relevance_rationale": "contains a cited direct provider/deployer duty for high-risk AI",
+      "normalized_similarity": 0.07799437474407771,
+      "normalized_relevance": 0.8,
+      "combined_score": 0.43899718737203886,
+      "final_rank": 4
+    },
+    {
+      "rank": 5,
+      "similarity_score": 0.6939602494239807,
+      "metadata": {
+        "source": "data/eu_ai_act.pdf",
+        "document_type": "pdf",
+        "page": 77,
+        "chunk_index": 2
+      },
+      "excerpt": "with the obligations set out in Sections 2 and 3 of Chapter V to a level at least equivalent thereto. 6. Where a Member State considers that a common specification does not entirely meet the requirements set out in Section 2 or, as applicable, comply with obligations set out in Sections 2 and 3 of Chapter V, it shall inform the Commission thereof with a detailed explanation. The Commission shall assess that information and, if appropriate, amend the implementing act establishing the common speci",
+      "text": "with the obligations set out in Sections 2 and 3 of Chapter V to a level at least equivalent thereto. 6. Where a Member State considers that a common specification does not entirely meet the requirements set out in Section 2 or, as applicable, comply with obligations set out in Sections 2 and 3 of Chapter V, it shall inform the Commission thereof with a detailed explanation. The Commission shall assess that information and, if appropriate, amend the implementing act establishing the common specification concerned. Article 42 Presumption of conformity with certain requirements 1. High-risk AI systems that have been trained and tested on data reflecting the specific geographical, behavioural, contextual or functional setting within which they are intended to be used shall be presumed to comply with the relevant requirements laid down in Article 10(4). 2. High-risk AI systems that have been certified or for which a statement of conformity has been issued under a cybersecurity scheme pursuant to Regulation (EU) 2019/881 and the references of which have been published in the Official Journal of the European Union shall be presumed to comply with the cybersecurity requirements set out in Article 15 of this Regulation in so far as the cybersecurity certificate or statement of conformity or parts thereof cover those requirements. OJ L, 12.7.2024 EN ELI: http://data.europa.eu/eli/reg/2024/1689/oj 77/144",
+      "original_rank": 5,
+      "relevance_score": 3,
+      "relevance_rationale": "contains Article-referenced high-risk legal evidence",
+      "normalized_similarity": 0.19522860153989702,
+      "normalized_relevance": 0.6,
+      "combined_score": 0.3976143007699485,
+      "final_rank": 5
+    },
+    {
+      "rank": 7,
+      "similarity_score": 0.6912113428115845,
+      "metadata": {
+        "source": "data/eu_ai_act.pdf",
+        "document_type": "pdf",
+        "page": 108,
+        "chunk_index": 3
+      },
+      "excerpt": "the non-compliance of the AI system is attributed to shortcomings in the harmonised standards or common specifications referred to in Articles 40 and 41 of this Regulation, the Commission shall apply the procedure provided for in Article 11 of Regulation (EU) No 1025/2012. Article 82 Compliant AI systems which present a risk 1. Where, having performed an evaluation under Article 79, after consulting the relevant national public authority referred to in Article 77(1), the market surveillance auth",
+      "text": "the non-compliance of the AI system is attributed to shortcomings in the harmonised standards or common specifications referred to in Articles 40 and 41 of this Regulation, the Commission shall apply the procedure provided for in Article 11 of Regulation (EU) No 1025/2012. Article 82 Compliant AI systems which present a risk 1. Where, having performed an evaluation under Article 79, after consulting the relevant national public authority referred to in Article 77(1), the market surveillance authority of a Member State finds that although a high-risk AI system complies with this Regulation, it nevertheless presents a risk to the health or safety of persons, to fundamental rights, or to other aspects of public interest protection, it shall require the relevant operator to take all appropriate measures to ensure that the AI system concerned, when placed on the market or put into service, no longer presents that risk without undue delay, within a period it may prescribe. EN OJ L, 12.7.2024 108/144 ELI: http://data.europa.eu/eli/reg/2024/1689/oj",
+      "original_rank": 7,
+      "relevance_score": 3,
+      "relevance_rationale": "contains Article-referenced high-risk legal evidence",
+      "normalized_similarity": 0.16427022709117883,
+      "normalized_relevance": 0.6,
+      "combined_score": 0.3821351135455894,
+      "final_rank": 6
+    },
+    {
+      "rank": 8,
+      "similarity_score": 0.6897174715995789,
+      "metadata": {
+        "source": "data/eu_ai_act.pdf",
+        "document_type": "pdf",
+        "page": 55,
+        "chunk_index": 2
+      },
+      "excerpt": "with Article 97 to amend the list in Annex III by removing high-risk AI systems where both of the following conditions are fulfilled: (a) the high-risk AI system concerned no longer poses any significant risks to fundamental rights, health or safety, taking into account the criteria listed in paragraph 2; (b) the deletion does not decrease the overall level of protection of health, safety and fundamental rights under Union law. SECTION 2 Requirements for high-risk AI systems Article 8 Compliance",
+      "text": "with Article 97 to amend the list in Annex III by removing high-risk AI systems where both of the following conditions are fulfilled: (a) the high-risk AI system concerned no longer poses any significant risks to fundamental rights, health or safety, taking into account the criteria listed in paragraph 2; (b) the deletion does not decrease the overall level of protection of health, safety and fundamental rights under Union law. SECTION 2 Requirements for high-risk AI systems Article 8 Compliance with the requirements 1. High-risk AI systems shall comply with the requirements laid down in this Section, taking into account their intended purpose as well as the generally acknowledged state of the art on AI and AI-related technologies. The risk management system referred to in Article 9 shall be taken into account when ensuring compliance with those requirements. OJ L, 12.7.2024 EN ELI: http://data.europa.eu/eli/reg/2024/1689/oj 55/144",
+      "original_rank": 8,
+      "relevance_score": 3,
+      "relevance_rationale": "contains Article-referenced high-risk legal evidence",
+      "normalized_similarity": 0.1474461472367105,
+      "normalized_relevance": 0.6,
+      "combined_score": 0.3737230736183552,
+      "final_rank": 7
+    },
+    {
+      "rank": 9,
+      "similarity_score": 0.6853097677230835,
+      "metadata": {
+        "source": "data/eu_ai_act.pdf",
+        "document_type": "pdf",
+        "page": 66,
+        "chunk_index": 3
+      },
+      "excerpt": "the authorities competent for the high-risk AI system concerned, giving details, in particular, of the non-compliance and of any corrective actions taken. 5. Upon a reasoned request from a relevant competent authority, distributors of a high-risk AI system shall provide that authority with all the information and documentation regarding their actions pursuant to paragraphs 1 to 4 necessary to demonstrate the conformity of that system with the requirements set out in Section 2. 6. Distributors sh",
+      "text": "the authorities competent for the high-risk AI system concerned, giving details, in particular, of the non-compliance and of any corrective actions taken. 5. Upon a reasoned request from a relevant competent authority, distributors of a high-risk AI system shall provide that authority with all the information and documentation regarding their actions pursuant to paragraphs 1 to 4 necessary to demonstrate the conformity of that system with the requirements set out in Section 2. 6. Distributors shall cooperate with the relevant competent authorities in any action those authorities take in relation to a high-risk AI system made available on the market by the distributors, in particular to reduce or mitigate the risk posed by it. EN OJ L, 12.7.2024 66/144 ELI: http://data.europa.eu/eli/reg/2024/1689/oj",
+      "original_rank": 9,
+      "relevance_score": 3,
+      "relevance_rationale": "covers high-risk AI and legal requirements or obligations",
+      "normalized_similarity": 0.09780628444462346,
+      "normalized_relevance": 0.6,
+      "combined_score": 0.3489031422223117,
+      "final_rank": 8
+    },
+    {
+      "rank": 11,
+      "similarity_score": 0.6843007206916809,
+      "metadata": {
+        "source": "data/eu_ai_act.pdf",
+        "document_type": "pdf",
+        "page": 43,
+        "chunk_index": 2
+      },
+      "excerpt": "into account the implications for the scope of this Regulation, the Commission should carry out an assessment of the need to amend the list of high-risk AI systems and the list of prohibited practices once a year. Moreover, by 2 August 2028 and every four years thereafter, the Commission should evaluate and report to the European Parliament and to the Council on the need to amend the list of high-risk areas headings in the annex to this Regulation, the AI systems within the scope of the transpar",
+      "text": "into account the implications for the scope of this Regulation, the Commission should carry out an assessment of the need to amend the list of high-risk AI systems and the list of prohibited practices once a year. Moreover, by 2 August 2028 and every four years thereafter, the Commission should evaluate and report to the European Parliament and to the Council on the need to amend the list of high-risk areas headings in the annex to this Regulation, the AI systems within the scope of the transparency obligations, the effectiveness of the supervision and governance system and the progress on the development of standardisation deliverables on energy efficient development of general-purpose AI models, including the need for further measures or actions. Finally, by 2 August 2028 and every three years thereafter, the Commission should evaluate the impact and effectiveness of voluntary codes of conduct to foster the application of the requirements provided for high-risk AI systems in the case of AI systems other than high-risk AI systems and possibly other additional requirements for such AI systems. (175) In order to ensure uniform conditions for the implementation of this Regulation, implementing powers should be conferred on the Commission. Those powers should be exercised in accordance with Regulation (EU) No 182/2011 of the European Parliament and of the Council (56). (176) Since the objective of this Regulation, namely to improve the functioning of the internal market and to promote the uptake of human centric and trustworthy AI, while ensuring a high level",
+      "original_rank": 11,
+      "relevance_score": 3,
+      "relevance_rationale": "covers high-risk AI and legal requirements or obligations",
+      "normalized_similarity": 0.0864423277013647,
+      "normalized_relevance": 0.6,
+      "combined_score": 0.34322116385068235,
+      "final_rank": 9
+    },
+    {
+      "rank": 16,
+      "similarity_score": 0.6799614429473877,
+      "metadata": {
+        "source": "data/eu_ai_act.pdf",
+        "document_type": "pdf",
+        "page": 24,
+        "chunk_index": 0
+      },
+      "excerpt": "Regulation should apply. For example, Article 16(2) of Regulation (EU) 2017/745, establishing that certain changes should not be considered to be modifications of a device that could affect its compliance with the applicable requirements, should continue to apply to high-risk AI systems that are medical devices within the meaning of that Regulation. (85) General-purpose AI systems may be used as high-risk AI systems by themselves or be components of other high-risk AI systems. Therefore, due to ",
+      "text": "Regulation should apply. For example, Article 16(2) of Regulation (EU) 2017/745, establishing that certain changes should not be considered to be modifications of a device that could affect its compliance with the applicable requirements, should continue to apply to high-risk AI systems that are medical devices within the meaning of that Regulation. (85) General-purpose AI systems may be used as high-risk AI systems by themselves or be components of other high-risk AI systems. Therefore, due to their particular nature and in order to ensure a fair sharing of responsibilities along the AI value chain, the providers of such systems should, irrespective of whether they may be used as high-risk AI systems as such by other providers or as components of high-risk AI systems and unless provided otherwise under this Regulation, closely cooperate with the providers of the relevant high-risk AI systems to enable their compliance with the relevant obligations under this Regulation and with the competent authorities established under this Regulation. (86) Where, under the conditions laid down in this Regulation, the provider that initially placed the AI system on the market or put it into service should no longer be considered to be the provider for the purposes of this Regulation, and when that provider has not expressly excluded the change of the AI system into a high-risk AI system, the former provider should nonetheless closely cooperate and make available the necessary information and provide the reasonably expected technical access and other assistance that are required for the fulfilment",
+      "original_rank": 16,
+      "relevance_score": 3,
+      "relevance_rationale": "contains Article-referenced high-risk legal evidence",
+      "normalized_similarity": 0.037573084694336484,
+      "normalized_relevance": 0.6,
+      "combined_score": 0.31878654234716824,
+      "final_rank": 10
+    },
+    {
+      "rank": 6,
+      "similarity_score": 0.6913674473762512,
+      "metadata": {
+        "source": "data/eu_ai_act.pdf",
+        "document_type": "pdf",
+        "page": 14,
+        "chunk_index": 1
+      },
+      "excerpt": "necessarily mean that the product whose safety component is the AI system, or the AI system itself as a product, is considered to be high-risk under the criteria established in the relevant Union harmonisation legislation that applies to the product. This is, in particular, the case for Regulations (EU) 2017/745 and (EU) 2017/746, where a third-party conformity assessment is provided for medium-risk and high-risk products. (52) As regards stand-alone AI systems, namely high-risk AI systems other",
+      "text": "necessarily mean that the product whose safety component is the AI system, or the AI system itself as a product, is considered to be high-risk under the criteria established in the relevant Union harmonisation legislation that applies to the product. This is, in particular, the case for Regulations (EU) 2017/745 and (EU) 2017/746, where a third-party conformity assessment is provided for medium-risk and high-risk products. (52) As regards stand-alone AI systems, namely high-risk AI systems other than those that are safety components of products, or that are themselves products, it is appropriate to classify them as high-risk if, in light of their intended purpose, they pose a high risk of harm to the health and safety or the fundamental rights of persons, taking into account both the severity of the possible harm and its probability of occurrence and they are used in a number of specifically pre-defined areas specified in this Regulation. The identification of those systems is based on the same methodology and criteria envisaged also for any future amendments of the list of high-risk AI systems that the Commission should be empowered to adopt, via delegated acts, to take into account the rapid pace of technological development, as well as the potential changes in the use of AI systems. (53) It is also important to clarify that there may be specific cases in which AI systems referred to in pre-defined areas specified in this Regulation do not lead to a significant risk of harm to the legal interests",
+      "original_rank": 6,
+      "relevance_score": 2,
+      "relevance_rationale": "specifically covers one of the two topics",
+      "normalized_similarity": 0.166028287384793,
+      "normalized_relevance": 0.4,
+      "combined_score": 0.2830141436923965,
+      "final_rank": 11
+    },
+    {
+      "rank": 12,
+      "similarity_score": 0.6836395263671875,
+      "metadata": {
+        "source": "data/eu_ai_act.pdf",
+        "document_type": "pdf",
+        "page": 2,
+        "chunk_index": 2
+      },
+      "excerpt": "and fundamental rights, common rules for high-risk AI systems should be established. Those rules should be consistent with the Charter, non-discriminatory and in line with the Union’s international trade commitments. They should also take into account the European Declaration on Digital Rights and Principles for the Digital Decade and the Ethics guidelines for trustworthy AI of the High-Level Expert Group on Artificial Intelligence (AI HLEG). (8) A Union legal framework laying down harmonised ru",
+      "text": "and fundamental rights, common rules for high-risk AI systems should be established. Those rules should be consistent with the Charter, non-discriminatory and in line with the Union’s international trade commitments. They should also take into account the European Declaration on Digital Rights and Principles for the Digital Decade and the Ethics guidelines for trustworthy AI of the High-Level Expert Group on Artificial Intelligence (AI HLEG). (8) A Union legal framework laying down harmonised rules on AI is therefore needed to foster the development, use and uptake of AI in the internal market that at the same time meets a high level of protection of public interests, such as health and safety and the protection of fundamental rights, including democracy, the rule of law and environmental protection as recognised and protected by Union law. To achieve that objective, rules regulating the placing on the market, the putting into service and the use of certain AI systems should be laid down, thus ensuring the smooth functioning of the internal market and allowing those systems to benefit from the principle of free movement of goods and services. Those rules should be clear and robust in protecting fundamental rights, supportive of new innovative solutions, enabling a European ecosystem of public and private actors creating AI systems in line with Union values and unlocking the potential of the digital transformation across all regions of the Union. By laying down those rules as well as measures in support of innovation with a particular focus on small",
+      "original_rank": 12,
+      "relevance_score": 2,
+      "relevance_rationale": "specifically covers one of the two topics",
+      "normalized_similarity": 0.07899591195601828,
+      "normalized_relevance": 0.4,
+      "combined_score": 0.23949795597800916,
+      "final_rank": 12
+    },
+    {
+      "rank": 4,
+      "similarity_score": 0.7010980844497681,
+      "metadata": {
+        "source": "data/eu_ai_act.pdf",
+        "document_type": "pdf",
+        "page": 86,
+        "chunk_index": 1
+      },
+      "excerpt": "their sources, that may stem from the development, the placing on the market, or the use of general-purpose AI models with systemic risk; (c) keep track of, document, and report, without undue delay, to the AI Office and, as appropriate, to national competent authorities, relevant information about serious incidents and possible corrective measures to address them; (d) ensure an adequate level of cybersecurity protection for the general-purpose AI model with systemic risk and the physical infras",
+      "text": "their sources, that may stem from the development, the placing on the market, or the use of general-purpose AI models with systemic risk; (c) keep track of, document, and report, without undue delay, to the AI Office and, as appropriate, to national competent authorities, relevant information about serious incidents and possible corrective measures to address them; (d) ensure an adequate level of cybersecurity protection for the general-purpose AI model with systemic risk and the physical infrastructure of the model. 2. Providers of general-purpose AI models with systemic risk may rely on codes of practice within the meaning of Article 56 to demonstrate compliance with the obligations set out in paragraph 1 of this Article, until a harmonised standard is published. Compliance with European harmonised standards grants providers the presumption of conformity to the extent that those standards cover those obligations. Providers of general-purpose AI models with systemic risks who do not adhere to an approved code of practice or do not comply with a European harmonised standard shall demonstrate alternative adequate means of compliance for assessment by the Commission. 3. Any information or documentation obtained pursuant to this Article, including trade secrets, shall be treated in accordance with the confidentiality obligations set out in Article 78. SECTION 4 Codes of practice Article 56 Codes of practice 1. The AI Office shall encourage and facilitate the drawing up of codes of practice at Union level in order to contribute to the proper application of this Regulation, taking into account international approaches.",
+      "original_rank": 4,
+      "relevance_score": 1,
+      "relevance_rationale": "contains an Article reference and legal language",
+      "normalized_similarity": 0.27561538822992393,
+      "normalized_relevance": 0.2,
+      "combined_score": 0.23780769411496197,
+      "final_rank": 13
+    },
+    {
+      "rank": 19,
+      "similarity_score": 0.6768418550491333,
+      "metadata": {
+        "source": "data/eu_ai_act.pdf",
+        "document_type": "pdf",
+        "page": 46,
+        "chunk_index": 1
+      },
+      "excerpt": "or administrative provisions which are more favourable to workers in terms of protecting their rights in respect of the use of AI systems by employers, or from encouraging or allowing the application of collective agreements which are more favourable to workers. 12. This Regulation does not apply to AI systems released under free and open-source licences, unless they are placed on the market or put into service as high-risk AI systems or as an AI system that falls under Article 5 or 50. Article ",
+      "text": "or administrative provisions which are more favourable to workers in terms of protecting their rights in respect of the use of AI systems by employers, or from encouraging or allowing the application of collective agreements which are more favourable to workers. 12. This Regulation does not apply to AI systems released under free and open-source licences, unless they are placed on the market or put into service as high-risk AI systems or as an AI system that falls under Article 5 or 50. Article 3 Definitions For the purposes of this Regulation, the following definitions apply: (1) ‘AI system’ means a machine-based system that is designed to operate with varying levels of autonomy and that may exhibit adaptiveness after deployment, and that, for explicit or implicit objectives, infers, from the input it receives, how to generate outputs such as predictions, content, recommendations, or decisions that can influence physical or virtual environments; (2) ‘risk’ means the combination of the probability of an occurrence of harm and the severity of that harm; (3) ‘provider’ means a natural or legal person, public authority, agency or other body that develops an AI system or a general-purpose AI model or that has an AI system or a general-purpose AI model developed and places it on the market or puts the AI system into service under its own name or trademark, whether for payment or free of charge; (4) ‘deployer’ means a natural or legal person, public authority, agency or other body using an AI system",
+      "original_rank": 19,
+      "relevance_score": 2,
+      "relevance_rationale": "specifically covers one of the two topics",
+      "normalized_similarity": 0.0024400722288230596,
+      "normalized_relevance": 0.4,
+      "combined_score": 0.20122003611441155,
+      "final_rank": 14
+    },
+    {
+      "rank": 20,
+      "similarity_score": 0.6766251921653748,
+      "metadata": {
+        "source": "data/eu_ai_act.pdf",
+        "document_type": "pdf",
+        "page": 18,
+        "chunk_index": 2
+      },
+      "excerpt": "classified as high-risk AI systems with the exception of AI systems whose output natural persons are not directly exposed to, such as tools used to organise, optimise and structure political campaigns from an administrative and logistical point of view. (63) The fact that an AI system is classified as a high-risk AI system under this Regulation should not be interpreted as indicating that the use of the system is lawful under other acts of Union law or under national law compatible with Union la",
+      "text": "classified as high-risk AI systems with the exception of AI systems whose output natural persons are not directly exposed to, such as tools used to organise, optimise and structure political campaigns from an administrative and logistical point of view. (63) The fact that an AI system is classified as a high-risk AI system under this Regulation should not be interpreted as indicating that the use of the system is lawful under other acts of Union law or under national law compatible with Union law, such as on the protection of personal data, on the use of polygraphs and similar tools or other systems to detect the emotional state of natural persons. Any such use should continue to occur solely in accordance with the applicable requirements resulting from the Charter and from the applicable acts of secondary Union law and national law. This Regulation should not be understood as providing for the legal ground for processing of personal data, including special categories of personal data, where relevant, unless it is specifically otherwise provided for in this Regulation. (64) To mitigate the risks from high-risk AI systems placed on the market or put into service and to ensure a high level of trustworthiness, certain mandatory requirements should apply to high-risk AI systems, taking into account the intended purpose and the context of use of the AI system and according to the risk-management system to be established by the provider. The measures adopted by the providers to comply with the mandatory requirements of",
+      "original_rank": 20,
+      "relevance_score": 2,
+      "relevance_rationale": "specifically covers one of the two topics",
+      "normalized_similarity": 0.0,
+      "normalized_relevance": 0.4,
+      "combined_score": 0.2,
+      "final_rank": 15
+    },
+    {
+      "rank": 14,
+      "similarity_score": 0.6822915077209473,
+      "metadata": {
+        "source": "data/eu_ai_act.pdf",
+        "document_type": "pdf",
+        "page": 112,
+        "chunk_index": 2
+      },
+      "excerpt": "for the selection thereof. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 98(2). 7. Prior to requesting access to the general-purpose AI model concerned, the AI Office may initiate a structured dialogue with the provider of the general-purpose AI model to gather more information on the internal testing of the model, internal safeguards for preventing systemic risks, and other internal procedures and measures the provider has taken to ",
+      "text": "for the selection thereof. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 98(2). 7. Prior to requesting access to the general-purpose AI model concerned, the AI Office may initiate a structured dialogue with the provider of the general-purpose AI model to gather more information on the internal testing of the model, internal safeguards for preventing systemic risks, and other internal procedures and measures the provider has taken to mitigate such risks. Article 93 Power to request measures 1. Where necessary and appropriate, the Commission may request providers to: (a) take appropriate measures to comply with the obligations set out in Articles 53 and 54; EN OJ L, 12.7.2024 112/144 ELI: http://data.europa.eu/eli/reg/2024/1689/oj",
+      "original_rank": 14,
+      "relevance_score": 1,
+      "relevance_rationale": "contains an Article reference and legal language",
+      "normalized_similarity": 0.06381443368172329,
+      "normalized_relevance": 0.2,
+      "combined_score": 0.13190721684086165,
+      "final_rank": 16
+    },
+    {
+      "rank": 15,
+      "similarity_score": 0.6809190511703491,
+      "metadata": {
+        "source": "data/eu_ai_act.pdf",
+        "document_type": "pdf",
+        "page": 54,
+        "chunk_index": 1
+      },
+      "excerpt": "put into service. Such provider shall be subject to the registration obligation set out in Article 49(2). Upon request of national competent authorities, the provider shall provide the documentation of the assessment. 5. The Commission shall, after consulting the European Artificial Intelligence Board (the ‘Board’), and no later than 2 February 2026, provide guidelines specifying the practical implementation of this Article in line with Article 96 together with a comprehensive list of practical ",
+      "text": "put into service. Such provider shall be subject to the registration obligation set out in Article 49(2). Upon request of national competent authorities, the provider shall provide the documentation of the assessment. 5. The Commission shall, after consulting the European Artificial Intelligence Board (the ‘Board’), and no later than 2 February 2026, provide guidelines specifying the practical implementation of this Article in line with Article 96 together with a comprehensive list of practical examples of use cases of AI systems that are high-risk and not high-risk. 6. The Commission is empowered to adopt delegated acts in accordance with Article 97 in order to amend paragraph 3, second subparagraph, of this Article by adding new conditions to those laid down therein, or by modifying them, where there is concrete and reliable evidence of the existence of AI systems that fall under the scope of Annex III, but do not pose a significant risk of harm to the health, safety or fundamental rights of natural persons. 7. The Commission shall adopt delegated acts in accordance with Article 97 in order to amend paragraph 3, second subparagraph, of this Article by deleting any of the conditions laid down therein, where there is concrete and reliable evidence that this is necessary to maintain the level of protection of health, safety and fundamental rights provided for by this Regulation. 8. Any amendment to the conditions laid down in paragraph 3, second subparagraph, adopted in accordance with paragraphs 6 and 7 of this Article shall not",
+      "original_rank": 15,
+      "relevance_score": 1,
+      "relevance_rationale": "contains an Article reference and legal language",
+      "normalized_similarity": 0.04835773405562156,
+      "normalized_relevance": 0.2,
+      "combined_score": 0.12417886702781078,
+      "final_rank": 17
+    },
+    {
+      "rank": 17,
+      "similarity_score": 0.6792004108428955,
+      "metadata": {
+        "source": "data/eu_ai_act.pdf",
+        "document_type": "pdf",
+        "page": 85,
+        "chunk_index": 0
+      },
+      "excerpt": "2. The obligations set out in paragraph 1, points (a) and (b), shall not apply to providers of AI models that are released under a free and open-source licence that allows for the access, usage, modification, and distribution of the model, and whose parameters, including the weights, the information on the model architecture, and the information on model usage, are made publicly available. This exception shall not apply to general-purpose AI models with systemic risks. 3. Providers of general-pu",
+      "text": "2. The obligations set out in paragraph 1, points (a) and (b), shall not apply to providers of AI models that are released under a free and open-source licence that allows for the access, usage, modification, and distribution of the model, and whose parameters, including the weights, the information on the model architecture, and the information on model usage, are made publicly available. This exception shall not apply to general-purpose AI models with systemic risks. 3. Providers of general-purpose AI models shall cooperate as necessary with the Commission and the national competent authorities in the exercise of their competences and powers pursuant to this Regulation. 4. Providers of general-purpose AI models may rely on codes of practice within the meaning of Article 56 to demonstrate compliance with the obligations set out in paragraph 1 of this Article, until a harmonised standard is published. Compliance with European harmonised standards grants providers the presumption of conformity to the extent that those standards cover those obligations. Providers of general-purpose AI models who do not adhere to an approved code of practice or do not comply with a European harmonised standard shall demonstrate alternative adequate means of compliance for assessment by the Commission. 5. For the purpose of facilitating compliance with Annex XI, in particular points 2 (d) and (e) thereof, the Commission is empowered to adopt delegated acts in accordance with Article 97 to detail measurement and calculation methodologies with a view to allowing for comparable and verifiable documentation. 6. The Commission is",
+      "original_rank": 17,
+      "relevance_score": 1,
+      "relevance_rationale": "contains an Article reference and legal language",
+      "normalized_similarity": 0.029002289036121124,
+      "normalized_relevance": 0.2,
+      "combined_score": 0.11450114451806057,
+      "final_rank": 18
+    },
+    {
+      "rank": 10,
+      "similarity_score": 0.6849050521850586,
+      "metadata": {
+        "source": "data/eu_ai_act.pdf",
+        "document_type": "pdf",
+        "page": 1,
+        "chunk_index": 1
+      },
+      "excerpt": "human centric and trustworthy artificial intelligence (AI) while ensuring a high level of protection of health, safety, fundamental rights as enshrined in the Charter of Fundamental Rights of the European Union (the ‘Charter’), including democracy, the rule of law and environmental protection, to protect against the harmful effects of AI systems in the Union, and to support innovation. This Regulation ensures the free movement, cross-border, of AI-based goods and services, thus preventing Member",
+      "text": "human centric and trustworthy artificial intelligence (AI) while ensuring a high level of protection of health, safety, fundamental rights as enshrined in the Charter of Fundamental Rights of the European Union (the ‘Charter’), including democracy, the rule of law and environmental protection, to protect against the harmful effects of AI systems in the Union, and to support innovation. This Regulation ensures the free movement, cross-border, of AI-based goods and services, thus preventing Member States from imposing restrictions on the development, marketing and use of AI systems, unless explicitly authorised by this Regulation. (2) This Regulation should be applied in accordance with the values of the Union enshrined as in the Charter, facilitating the protection of natural persons, undertakings, democracy, the rule of law and environmental protection, while boosting innovation and employment and making the Union a leader in the uptake of trustworthy AI. (3) AI systems can be easily deployed in a large variety of sectors of the economy and many parts of society, including across borders, and can easily circulate throughout the Union. Certain Member States have already explored the adoption of national rules to ensure that AI is trustworthy and safe and is developed and used in accordance with fundamental rights obligations. Diverging national rules may lead to the fragmentation of the internal market and may decrease legal certainty for operators that develop, import or use AI systems. A consistent and high level of protection throughout the Union should therefore be ensured in order to achieve trustworthy AI,",
+      "original_rank": 10,
+      "relevance_score": 0,
+      "relevance_rationale": "no configured relevance signals matched",
+      "normalized_similarity": 0.09324835035006813,
+      "normalized_relevance": 0.0,
+      "combined_score": 0.04662417517503407,
+      "final_rank": 19
+    },
+    {
+      "rank": 18,
+      "similarity_score": 0.6772946119308472,
+      "metadata": {
+        "source": "data/eu_ai_act.pdf",
+        "document_type": "pdf",
+        "page": 4,
+        "chunk_index": 0
+      },
+      "excerpt": "rights and guarantees awarded to them by such Union law, including the rights related to solely automated individual decision-making, including profiling. Harmonised rules for the placing on the market, the putting into service and the use of AI systems established under this Regulation should facilitate the effective implementation and enable the exercise of the data subjects’ rights and other remedies guaranteed under Union law on the protection of personal data and of other fundamental rights",
+      "text": "rights and guarantees awarded to them by such Union law, including the rights related to solely automated individual decision-making, including profiling. Harmonised rules for the placing on the market, the putting into service and the use of AI systems established under this Regulation should facilitate the effective implementation and enable the exercise of the data subjects’ rights and other remedies guaranteed under Union law on the protection of personal data and of other fundamental rights. (11) This Regulation should be without prejudice to the provisions regarding the liability of providers of intermediary services as set out in Regulation (EU) 2022/2065 of the European Parliament and of the Council (15). (12) The notion of ‘AI system’ in this Regulation should be clearly defined and should be closely aligned with the work of international organisations working on AI to ensure legal certainty, facilitate international convergence and wide acceptance, while providing the flexibility to accommodate the rapid technological developments in this field. Moreover, the definition should be based on key characteristics of AI systems that distinguish it from simpler traditional software systems or programming approaches and should not cover systems that are based on the rules defined solely by natural persons to automatically execute operations. A key characteristic of AI systems is their capability to infer. This capability to infer refers to the process of obtaining the outputs, such as predictions, content, recommendations, or decisions, which can influence physical and virtual environments, and to a capability of AI systems to derive models or",
+      "original_rank": 18,
+      "relevance_score": 0,
+      "relevance_rationale": "no configured relevance signals matched",
+      "normalized_similarity": 0.007539051224735016,
+      "normalized_relevance": 0.0,
+      "combined_score": 0.003769525612367508,
+      "final_rank": 20
+    }
+  ]
+}
